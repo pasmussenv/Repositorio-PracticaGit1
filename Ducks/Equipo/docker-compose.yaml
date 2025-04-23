@@ -5,3 +5,9 @@ services:
     build:
       context: ./domingo
     container_name: domingo_container
+
+  paula:
+    build:
+      context: ./Paula
+    container_name: paula_container
+
