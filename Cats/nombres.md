@@ -1,3 +1,5 @@
 - Jesús Arias Moya
 - Santiago Cuevas Ibáñez
+- Paico11
+- Antonio Romero Gallardo
 - Steve Barrera
