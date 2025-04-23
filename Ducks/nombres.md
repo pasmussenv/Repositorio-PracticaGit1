@@ -3,3 +3,5 @@
 - Lucia
 - Torres
 - Héctor
+- Domingo
+- Fco Javier
