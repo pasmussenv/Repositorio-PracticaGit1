@@ -7,4 +7,5 @@
 - Paula Barranco
 - Mario Hernández
 - Jose Sotos
-- Damian FLorido
+- Damian FLorido 
+- David Raez 
