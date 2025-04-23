@@ -40,7 +40,7 @@ Cada alumno debe crear su propio contenedor Docker, integrarlo en un proyecto co
   
 7. **Haz commit y push** de tus cambios a tu fork en GitHub.
 
-8. **Resuelve posibles conflictos**, especialmente si varios alumnos han editado `docker-compose.yml` al mismo tiempo.
+8. **Resuelve posibles conflictos**, especialmente si varios compañeros han editado `docker-compose.yml` al mismo tiempo.
 
 ---
 
