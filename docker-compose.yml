@@ -1,0 +1,6 @@
+version: '3.8'
+
+services:
+  jesus-arias:
+    build: ./Cats/Equipo/jesus-arias
+    container_name: contenedor-jesus
