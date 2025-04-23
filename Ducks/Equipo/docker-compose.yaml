@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  domingo:
+    build:
+      context: ./domingo
+    container_name: domingo_container
