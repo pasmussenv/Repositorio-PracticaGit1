@@ -6,3 +6,4 @@ Cristobal Serrano
 Jesus Ojeda
 Paula Barranco
 Mario Hernández
+Jose Sotos
