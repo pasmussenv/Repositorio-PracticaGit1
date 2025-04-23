@@ -1,9 +1,9 @@
-Alejandro Villodres Romero = VR-Alejandro
-Javier Romero
-Rama - Salvador Malia
-Salva Lopez
-Cristobal Serrano
-Jesus Ojeda
-Paula Barranco
-Mario Hernández
-Jose Sotos
+- Alejandro Villodres
+- Javier Romero
+- Salvador Malia
+- Salva Lopez
+- Cristobal Serrano
+- Jesus Ojeda
+- Paula Barranco
+- Mario Hernández
+- Jose Sotos
