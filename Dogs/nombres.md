@@ -1,4 +1,8 @@
 Alejandro Villodres Romero = VR-Alejandro
 Javier Romero
 Rama - Salvador Malia
-master
+Salva Lopez
+Cristobal Serrano
+Jesus Ojeda
+Paula Barranco
+Mario Hernández
