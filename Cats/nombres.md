@@ -1,5 +1,6 @@
 - Jesús Arias Moya
 - Santiago Cuevas Ibáñez
+- Ángel Fernández García
 - Paico11
 - Antonio Romero Gallardo
 - Steve Barrera
