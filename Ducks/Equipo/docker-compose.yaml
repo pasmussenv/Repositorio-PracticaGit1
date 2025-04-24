@@ -20,3 +20,8 @@ services:
     build:
       context: ./Lucía
     container_name: lucia_container
+
+  fcojvrmn:
+    build:
+      context: ./fcojvrmn
+    container_name: fcojvrmn_container
