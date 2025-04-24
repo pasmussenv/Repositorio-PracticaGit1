@@ -30,3 +30,7 @@ services:
   mario:
     build: ./Mario
     container_name: Mario
+    
+  salvador_malia:
+    build: ./Salvador_Malia
+    container_name: Salvador_Malia
