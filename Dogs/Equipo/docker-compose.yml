@@ -34,3 +34,7 @@ services:
   salvador_malia:
     build: ./Salvador_Malia
     container_name: Salvador_Malia
+
+  contenedor-damian:
+    build: ./Damian
+    container_name: contenedor-damian

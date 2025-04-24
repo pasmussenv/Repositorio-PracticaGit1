@@ -9,3 +9,23 @@ services:
     build:
       context: ./Equipo/Ángel
     container_name: Ángel_container
+santiago_cuevas:
+    build:
+      context: .
+      dockerfile: Equipo/Santiago_Cuevas/Dockerfile
+    container_name: santiago_cuevas_container
+
+  Antonio:
+    build:
+      context: ./Equipo/Antonio
+      container_name: Antonio_container
+
+
+  Steve:
+    build:
+      context: ./Steve
+      dockerfile: Dockerfile
+    container_name: mi-imagen-steve
+   
+ networks:
+      - default
