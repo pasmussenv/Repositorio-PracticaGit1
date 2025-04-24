@@ -1,0 +1,4 @@
+Ángel:
+    build:
+      context: ./Equipo/Ángel
+    container_name: Ángel_container
