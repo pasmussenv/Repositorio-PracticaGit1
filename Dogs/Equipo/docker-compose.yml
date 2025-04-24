@@ -33,8 +33,14 @@ services:
     
   salvador_malia:
     build: ./Salvador_Malia
-    container_name: Salvador_Malia
+    container_name: Salvador_Malia 
+
+  david_raez:
+    build: ./david_raez
+    container_name: David_Raez 
+
 
   contenedor-damian:
     build: ./Damian
     container_name: contenedor-damian
+
