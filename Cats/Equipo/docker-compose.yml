@@ -20,5 +20,12 @@ santiago_cuevas:
       context: ./Equipo/Antonio
       container_name: Antonio_container
 
-    networks:
+
+  Steve:
+    build:
+      context: ./Steve
+      dockerfile: Dockerfile
+    container_name: mi-imagen-steve
+   
+ networks:
       - default
