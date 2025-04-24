@@ -18,3 +18,7 @@ services:
   jesus:
     build: ./jesus_ojeda
     container_name: jesus_ojeda
+
+  javier:
+    build: ./Javier
+    container_name: Javier
