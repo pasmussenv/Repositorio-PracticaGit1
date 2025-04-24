@@ -22,3 +22,7 @@ services:
   javier:
     build: ./Javier
     container_name: Javier
+
+  paula:
+    build: ./paula_barranco
+    container_name: paula
