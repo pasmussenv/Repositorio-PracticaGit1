@@ -1,8 +1,12 @@
 services:
 
-  Alejandro-Villodres:
-    image: mi-app-python
+ # Alejandro-Villodres:
+   # image: mi-app-python
 
   sotos:
     build: ./Sotos
     container_name: Sotos
+
+  salva-lopez:
+    build: ./Salva-Lopez
+    container_name: Salva-Lopez
