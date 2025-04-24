@@ -14,5 +14,11 @@ santiago_cuevas:
       context: .
       dockerfile: Equipo/Santiago_Cuevas/Dockerfile
     container_name: santiago_cuevas_container
+
+  Antonio:
+    build:
+      context: ./Equipo/Antonio
+      container_name: Antonio_container
+
     networks:
       - default
