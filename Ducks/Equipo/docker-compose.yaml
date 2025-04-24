@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  domingo:
+    build:
+      context: ./domingo
+    container_name: domingo_container
+
+  paula:
+    build:
+      context: ./Paula
+    container_name: paula_container
+
+  Antonio:
+    build:
+      context: ./Antonio
+    container_name: antonio_container
