@@ -4,3 +4,8 @@ services:
   jesus-arias:
     build: ./jesus-arias
     container_name: contenedor-jesus
+
+  Ángel:
+    build:
+      context: ./Equipo/Ángel
+    container_name: Ángel_container
