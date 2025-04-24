@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  jairo1411:
+    build: ./Equipo/Jairo1411
+    container_name: jairo1411_container
