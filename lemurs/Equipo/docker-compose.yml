@@ -1,0 +1,4 @@
+services:
+  Jose-MQ:
+    build: ./Jose-MQ
+    container_name: Jose-MQ
