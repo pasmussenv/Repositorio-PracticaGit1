@@ -11,3 +11,7 @@ services:
       context: ./Paula
     container_name: paula_container
 
+  Antonio:
+    build:
+      context: ./Antonio
+    container_name: antonio_container
