@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  php:
+    build: .
+    container_name: php_paula
+    volumes:
+      - .:/var/www/html
+    networks:
+      - symfony_net
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_paula
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: symfony
+      MYSQL_USER: symfony
+      MYSQL_PASSWORD: symfony
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - symfony_net
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx_paula
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - .:/var/www/html
+    depends_on:
+      - php
+    networks:
+      - symfony_net
+
+volumes:
+  mysql_data:
+
+networks:
+  symfony_net:
